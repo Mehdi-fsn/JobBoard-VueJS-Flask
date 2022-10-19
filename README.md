@@ -27,14 +27,14 @@ Flask :
 
 VueJS : 
 
-- Dans ``job-board-front``, éxecutez la commande ``npm intall`` pour installer toutes les dépendances
+- Dans ``/job-board-front``, éxecutez la commande ``npm install`` pour installer toutes les dépendances
 - Puis lancer le serveur avec la commande ``npm run dev`` et faites un ctrl + click sur l'url ``localhost``
 
-Vous devriez atterir sur notre site !!
+Vous devriez vous trouver sur notre site ! 
  
 ## Démarrage
 
-Vous pouvez vous connecter avec n'importe quel compte présent dans la base de données avec le mot de passe root.
+Vous pouvez vous connecter au site avec n'importe quel compte présent dans la base de données avec le mot de passe ``root``.
 Liste des adresses email : 
 - ut.quam@outlook.couk
 - mauris@hotmail.couk
