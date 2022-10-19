@@ -8,7 +8,7 @@ Le projet avait pour but de réaliser un Job-Board (comme Indeed, Trabajo etc...
 
 Ce qu'il est requis pour commencer le projet...
 
-- Phpmyadmin
+- MySQL & Phpmyadmin
 - Flask
 - VueJS
 
