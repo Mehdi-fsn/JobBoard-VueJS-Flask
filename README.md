@@ -1,48 +1,47 @@
-# Job-Board *VITE-FAIT*
+# Job-Board
 
-Le projet avait pour but de réaliser un Job-Board (comme Indeed, Trabajo etc...) en binome dans le cadre du projet concluant la piscine de Web de Pré-Msc au sein de l'école EPITECH. Le site Web devant être dynamique et intéractif en créant une API (avec flask) reliant la partie front-end (avec VueJS) et la base de données (SQL). 
+The project aimed to carry out a Job-Board (like Indeed, Trabajo etc...) in binome as part of the project concluding the Pre-msc Web pool within the EPITECH school. The website should be dynamic and interactive by creating an API (with flask) connecting the front-end part (with VueJS) and the database (SQL). 
 
-## Pour commencer (Ubuntu)
+## Get Started
 
-### Pré-requis
+### Prerequisite
 
-Ce qu'il est requis pour commencer le projet...
+What is required to start the project...
 
 - MySQL & Phpmyadmin
 - Flask
 - VueJS
 
-### Installation
-
-Les étapes pour installer les packages....
+### Steps
 
 BDD : ( compte phpmyadmin => utilisateur = phpmyadmin & mot de passe = root)
 
-- Importer la base de données avec le script SQL ``JobBoard.sql``
+- Have phpmyadmin with this account (id: phpmyadmin, password: root)
+- Import the database with this script ``JobBoard.sql``
 
 Flask : 
 
-- Se rendre dans  ``/back/api``, installer les modules nécessaires avec la commande ``pip install modules.txt``
-- Puis lancer le serveur Flask avec la commande ``flask --app main run``
+- Go to  ``/back/api`` and install dependencies : ``pip install modules.txt``
+- Then launch Flask : ``flask --app main run``
 
 VueJS : 
 
-- Dans ``/job-board-front``, éxecutez la commande ``npm install`` pour installer toutes les dépendances
-- Puis lancer le serveur avec la commande ``npm run dev`` et faites un ctrl + click sur l'url ``localhost``
+- Go to ``/job-board-front``, run ``npm install`` for install dependencies
+- Then launch frontend with ``npm run dev`` and open ``localhost:8080`` in your browser
 
-Vous devriez vous trouver sur notre site ! 
+You should see our project !
  
-## Démarrage
+## Authentication
 
-Vous pouvez vous connecter au site avec n'importe quel compte présent dans la base de données avec le mot de passe ``root``.
-Liste des adresses email : 
+You can create an account or use these emails with the ```root``` password
+
 - ut.quam@outlook.couk
 - mauris@hotmail.couk
 - mi.duis@outlook.com
 - dui.augue@outlook.net
 - libero.morbi@google.edu
 
-## Fabriqué avec
+## Realized with
 
 * [VueJS](https://vuejs.org/) - Framework Front-end
 	- * [Bootstrap](https://getbootstrap.com/) - Framework CSS (front-end)
@@ -50,7 +49,7 @@ Liste des adresses email :
 * [SQL](https://sql.sh/) - Language de BDD 
 	- * [SQLAlchemy] (https://www.sqlalchemy.org/) - BDD toolkit pour python
 
-## Auteurs
+## Authors
 
 * **Hugo Vincent** _alias_ [@Hy0g0](https://github.com/Hy0g0)
 * **Mehdi Fessiane** _alias_ [@Mehdi-fsn](https://gist.github.com/Mehdi-fsn)
