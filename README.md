@@ -14,7 +14,7 @@ What is required to start the project...
 
 ### Steps
 
-BDD : ( compte phpmyadmin => utilisateur = phpmyadmin & mot de passe = root)
+BDD : 
 
 - Have phpmyadmin with this account (id: phpmyadmin, password: root)
 - Import the database with this script ``JobBoard.sql``
